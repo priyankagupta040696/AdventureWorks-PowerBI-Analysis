@@ -89,14 +89,14 @@ Provides product-level drill-through for revenue, profit, margin, returns, month
 - Bikes are the dominant contributor to overall revenue and profit compared with the other product categories.
 - The United States is the highest-revenue country in the report.
 - Professional customers contribute the most revenue among the occupation groups analyzed.
-- Graduate Degree customers lead revenue among the education segments shown.
+- Customers with Graduate Degree education recorded the highest revenue among the education groups shown.
 - Product-level drill-through supports detailed investigation of profitability, returns, price, cost, quantity, and monthly performance.
 
 ## Business Recommendations
 - Monitor the highest-revenue and highest-profit product categories and subcategories closely.
 - Review high-return subcategories alongside sales performance to identify areas for deeper product-quality or return-pattern analysis.
 - Use geographic performance to prioritize deeper market analysis.
-- Use customer segment analysis for behavioral research without making unsupported assumptions about individual customers.
+- Use customer segment patterns to guide further behavioral analysis without making assumptions about individual customers.
 - Continue using like-for-like period comparisons when a year is incomplete.
 
 ## Data Limitation
@@ -116,8 +116,5 @@ AdventureWorks-PowerBI-Analysis/
 └── PowerBI/
     └── AdventureWorks_Sales_Performance_Analysis.pbix
 ```
-
-If the PBIX file is too large for GitHub, omit the `PowerBI/` folder and keep the report screenshots and documentation.
-
 ## Project Workflow
 **Raw CSVs → Profiling → Cleaning → Append Sales Tables → Star Schema → Calendar Setup → DAX → Time Intelligence Validation → Report Design → Drill-through → Final Validation**
